@@ -13,12 +13,13 @@
 body{
  margin: 0;
  padding: 0;
- height: 100vh;
+ height: 95vh;
  display: flex;
  justify-content: center;
  align-items: center;
  background-color: var(--background);
  position: relative;
+ overflow-y: hidden;
 }
 
 .hat{
