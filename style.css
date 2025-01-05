@@ -210,15 +210,16 @@ body{
  position: absolute;
  z-index: 100;
  bottom: -10%;
- left: 20%;
+ left: 23%;
  display: flex;
  justify-content: center;
  align-items: center;
 }
 
 .circle-1{
- width: 30px;
+ width: 35px;
  height: 20px;
+
  border-radius: 50%;
  border-bottom: 3px solid var(--bordes);
 }
@@ -248,12 +249,12 @@ body{
 }
 
 .beard-2{
- width: 35px;
+ width: 40px;
  height: 20px;
  background-color: var(--brown);
  position: absolute;
  bottom: -3px;
- left: 25%;
+ left: 21%;
  border-radius: 10px 10px 0 0;
  border-left: 3px solid var(--bordes);
  border-top: 3px solid var(--bordes);
@@ -296,4 +297,5 @@ footer{
  font-family: "Playwrite AU SA", serif;
  font-weight: 400;
  font-style: normal;
+ position: fixed;
 }
