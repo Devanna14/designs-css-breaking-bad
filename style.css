@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+:root{
+ --background: rgb(89, 107, 21);
+ --hat:rgb(60, 53, 51);
+ --hat-grey: rgb(81, 77, 76);
+ --skin: rgb(229,196,156);
+ --bordes: rgb(47,45,42);
+ --brown: rgb(85,61,47);
+ --eye-color: rgb(71,93,24);
+}
+
+body{
+ margin: 0;
+ padding: 0;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: var(--background);
+ position: relative;
+}
+
+.hat{
+ background-color: var(--hat);
+ width: 170px;
+ height: 70px;
+ margin: 0 auto;
+ border-radius: 5px 5px 0 0;
+ border-top: 4px solid var(--bordes);
+ border-left: 4px solid var(--bordes);
+ border-right: 4px solid var(--bordes);
+ position: relative;
+}
+
+.hat--grey{
+ background-color: var(--hat-grey);
+ height: 20px;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ position: absolute;
+}
+
+.hat--bottom{
+ background-color: var(--hat);
+ width: 220px;
+ height: 25px;
+ border-radius: 5px;
+ border: 4px solid var(--bordes);
+}
+
+.head--top{
+ width: 170px;
+ height: 100px;
+ background-color: var(--skin);
+ border-radius: 0 0 45px 50px;
+ position: relative;
+ margin: 0 auto;
+ border-left: 3px solid var(--bordes);
+ border-right: 3px solid var(--bordes);
+ border-bottom: 3px solid var(--bordes);
+}
+
+.head-bottom{
+ width: 145px;
+ height: 100px;
+ background-color: var(--skin); 
+ border-bottom: 3px solid var(--bordes);
+ border-left: 3px solid var(--bordes);
+ border-right: 3px solid var(--bordes);
+ border-radius: 0 0 65px 65px;
+ position: absolute;
+ bottom: -90px;
+ left: 10px;
+}
+
+.ear-left{
+ width: 10px;
+ height: 30px;
+ position: absolute;
+ left: -16px;
+ bottom: 40px;
+ border: 3px solid var(--bordes);
+ background-color: var(--skin);
+}
+
+.ear-rigth{
+ width: 10px;
+ height: 30px;
+ position: absolute;
+ right: -16px;
+ bottom: 40px;
+ border: 3px solid var(--bordes);
+ background-color: var(--skin);
+}
+
+.eyebrow-left{
+ width: 50px;
+ height: 10px;
+ position: absolute;
+ left: 20px;
+ bottom: 75%;
+ background-color: var(--brown);
+ border: 1px solid var(--bordes);
+ border-radius: 2px;
+}
+
+.eyebrow-rigth{
+ width: 50px;
+ height: 10px;
+ position: absolute;
+ right: 20px;
+ bottom: 75%;
+ background-color: var(--brown);
+ border: 1px solid var(--bordes);
+ border-radius: 2px;
+}
+
+.lens-left{
+ width: 60px;
+ height: 30px;
+ position: absolute;
+ left: 12px;
+ bottom: 37%;
+ border: 3px solid var(--bordes);
+ border-radius: 7px 7px 12px 7px;
+}
+
+.lens-rigth{
+ width: 60px;
+ height: 30px;
+ position: absolute;
+ right: 12px;
+ bottom: 37%;
+ border: 3px solid var(--bordes);
+ border-radius: 7px 7px 7px 12px;
+}
+
+.eye-left{
+ width: 30px;
+ height: 13px;
+ position: absolute;
+ bottom: 45%;
+ left: 16%;
+ background-color: white;
+ border: 2px solid var(--bordes);
+ border-radius: 0px 0px 50px 50px;
+ overflow: hidden;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.eye-rigth{
+ width: 30px;
+ height: 13px;
+ position: absolute;
+ bottom: 45%;
+ right: 16%;
+ background-color: white;
+ border: 2px solid var(--bordes);
+ border-radius: 0px 0px 50px 50px;
+ overflow: hidden;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.eye-circle-left{
+ width: 15px;
+ height: 15px;
+ border-radius: 50%;
+ border: 1px solid var(--bordes);
+ background-color: var(--eye-color);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.eye-circle-rigth{
+ width: 15px;
+ height: 15px;
+ border-radius: 50%;
+ border: 1px solid var(--bordes);
+ background-color: var(--eye-color);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.eye-circle-left-black{
+ width: 10px;
+ height: 10px;
+ background-color: var(--bordes);
+ border-radius: 50px;
+}
+
+.eye-circle-rigth-black{
+ width: 10px;
+ height: 10px;
+ background-color: var(--bordes);
+ border-radius: 50px;
+}
+
+.nose-container{
+ width: 100px;
+ height: 30px;
+ position: absolute;
+ z-index: 100;
+ bottom: -10%;
+ left: 20%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.circle-1{
+ width: 30px;
+ height: 20px;
+ border-radius: 50%;
+ border-bottom: 3px solid var(--bordes);
+}
+
+
+.beard{
+ width: 100px;
+ height: 70px;
+ background-color: var(--brown);
+ position: absolute;
+ top: 120px;
+ left: 20%;
+ z-index: 200;
+ border-radius: 20px;
+ border: 3px solid var(--bordes);
+}
+
+.beard-1{
+ width: 74px;
+ height: 45px;
+ left: 10%;
+ top: 10%;
+ position: absolute;
+ border-radius: 10px;
+ background-color: var(--skin);
+ border: 3px solid var(--bordes);
+}
+
+.beard-2{
+ width: 35px;
+ height: 20px;
+ background-color: var(--brown);
+ position: absolute;
+ bottom: -3px;
+ left: 25%;
+ border-radius: 10px 10px 0 0;
+ border-left: 3px solid var(--bordes);
+ border-top: 3px solid var(--bordes);
+ border-right: 3px solid var(--bordes);
+}
+
+.mouth{
+ width: 50px;
+ height: 7px;
+ border-radius: 20px;
+ position: absolute;
+ bottom: 30px;
+ left: 15%;
+ background-color: var(--bordes);
+}
+
+.title{
+ width: 100%;
+ height: 40px;
+ padding-bottom: 40px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 20px;
+}
+
+.title>img{
+ min-width: 100%;
+ height: auto;
+}
+
+footer{
+ bottom: 0;
+ left: 0;
+ right: 0;
+ text-align: center;
+ position: absolute;
+ padding: 10px 0;
+ color: rgb(0, 0, 0);
+ font-family: "Playwrite AU SA", serif;
+ font-weight: 400;
+ font-style: normal;
+}
